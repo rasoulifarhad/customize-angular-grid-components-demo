@@ -7,10 +7,14 @@ import { HttpClientModule } from '@angular/common/http'
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MaterialModule } from './common/material.module';
+import { HomeComponent } from './home/home.component';
+import { HomeStaticComponent } from './home-static/home-static.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    HomeComponent,
+    HomeStaticComponent
   ],
   imports: [
     BrowserModule,
