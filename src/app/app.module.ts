@@ -9,12 +9,16 @@ import { AppComponent } from './app.component';
 import { MaterialModule } from './common/material.module';
 import { HomeComponent } from './home/home.component';
 import { HomeStaticComponent } from './home-static/home-static.component';
+import { HomeFilterComponent } from './home-filter/home-filter.component';
+import { HomeDefColDefinitionComponent } from './home-def-col-definition/home-def-col-definition.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
-    HomeStaticComponent
+    HomeStaticComponent,
+    HomeFilterComponent,
+    HomeDefColDefinitionComponent
   ],
   imports: [
     BrowserModule,
