@@ -15,6 +15,7 @@ import { HomeGridOptionPaginationComponent } from './home-grid-option-pagination
 import { HomeGridOptionCellFormatComponent } from './home-grid-option-cell-format/home-grid-option-cell-format.component';
 import { CompanyLogoRenderer } from './company-logo-renderer/company-logo-renderer.component';
 import { HomeGridOptionCellRendererComponent } from './home-grid-option-cell-renderer/home-grid-option-cell-renderer.component';
+import { HomeGridEventsComponent } from './home-grid-events/home-grid-events.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +27,8 @@ import { HomeGridOptionCellRendererComponent } from './home-grid-option-cell-ren
     HomeGridOptionPaginationComponent,
     HomeGridOptionCellFormatComponent,
     CompanyLogoRenderer,
-    HomeGridOptionCellRendererComponent
+    HomeGridOptionCellRendererComponent,
+    HomeGridEventsComponent
   ],
   imports: [
     BrowserModule,
