@@ -16,6 +16,7 @@ import { HomeGridOptionCellFormatComponent } from './home-grid-option-cell-forma
 import { CompanyLogoRenderer } from './company-logo-renderer/company-logo-renderer.component';
 import { HomeGridOptionCellRendererComponent } from './home-grid-option-cell-renderer/home-grid-option-cell-renderer.component';
 import { HomeGridEventsComponent } from './home-grid-events/home-grid-events.component';
+import { MissionResultRenderer } from './mission-result-renderer/mission-result-renderer.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +29,8 @@ import { HomeGridEventsComponent } from './home-grid-events/home-grid-events.com
     HomeGridOptionCellFormatComponent,
     CompanyLogoRenderer,
     HomeGridOptionCellRendererComponent,
-    HomeGridEventsComponent
+    HomeGridEventsComponent,
+    MissionResultRenderer
   ],
   imports: [
     BrowserModule,
