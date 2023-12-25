@@ -12,9 +12,12 @@ export class HomeDefColDefinitionComponent {
   themeClass = 'ag-theme-quartz';
   rowData: IRow[] = [];
 
+  defaultColDef: ColDef = {
+    filter: true
+  }
   // Column Definitions: Defines & controls grid columns.
   colDefs: ColDef[] = [
-    { field: 'mission', filter: true },
+    { field: 'mission'},
     { field: 'company' },
     { field: 'location' },
     { field: 'date' },
