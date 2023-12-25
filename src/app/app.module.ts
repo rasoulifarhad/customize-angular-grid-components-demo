@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { HomeStaticComponent } from './home-static/home-static.component';
 import { HomeFilterComponent } from './home-filter/home-filter.component';
 import { HomeDefColDefinitionComponent } from './home-def-col-definition/home-def-col-definition.component';
+import { HomeGridOptionPaginationComponent } from './home-grid-option-pagination/home-grid-option-pagination.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HomeDefColDefinitionComponent } from './home-def-col-definition/home-de
     HomeComponent,
     HomeStaticComponent,
     HomeFilterComponent,
-    HomeDefColDefinitionComponent
+    HomeDefColDefinitionComponent,
+    HomeGridOptionPaginationComponent
   ],
   imports: [
     BrowserModule,
