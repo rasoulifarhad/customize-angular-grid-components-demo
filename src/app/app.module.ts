@@ -13,6 +13,8 @@ import { HomeFilterComponent } from './home-filter/home-filter.component';
 import { HomeDefColDefinitionComponent } from './home-def-col-definition/home-def-col-definition.component';
 import { HomeGridOptionPaginationComponent } from './home-grid-option-pagination/home-grid-option-pagination.component';
 import { HomeGridOptionCellFormatComponent } from './home-grid-option-cell-format/home-grid-option-cell-format.component';
+import { CompanyLogoRenderer } from './company-logo-renderer/company-logo-renderer.component';
+import { HomeGridOptionCellRendererComponent } from './home-grid-option-cell-renderer/home-grid-option-cell-renderer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +24,9 @@ import { HomeGridOptionCellFormatComponent } from './home-grid-option-cell-forma
     HomeFilterComponent,
     HomeDefColDefinitionComponent,
     HomeGridOptionPaginationComponent,
-    HomeGridOptionCellFormatComponent
+    HomeGridOptionCellFormatComponent,
+    CompanyLogoRenderer,
+    HomeGridOptionCellRendererComponent
   ],
   imports: [
     BrowserModule,
