@@ -1,0 +1,19 @@
+<ag-grid-angular #myGrid
+  style="width: 100%; height: 550px;"
+  [class]="themeClass"
+  [rowData]="RowData"
+  [paginationPageSize]="PaginationPageSize"
+  [pagination]="true"
+  [suppressPaginationPanel]="true"
+  [gridOptions]="GridOptions"
+  (cellValueChanged)="onCellValueChanged($event)"
+>
+
+</ag-grid-angular>
+<app-pagination
+  [pageSize]="PaginationPageSize"
+  [gridApi]="gridApi"
+  [noOfPages]="gridAPI.paginationGetTotalPages()"
+>
+
+</app-pagination>

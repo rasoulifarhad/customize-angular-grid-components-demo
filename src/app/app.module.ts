@@ -17,6 +17,8 @@ import { CompanyLogoRenderer } from './company-logo-renderer/company-logo-render
 import { HomeGridOptionCellRendererComponent } from './home-grid-option-cell-renderer/home-grid-option-cell-renderer.component';
 import { HomeGridEventsComponent } from './home-grid-events/home-grid-events.component';
 import { MissionResultRenderer } from './mission-result-renderer/mission-result-renderer.component';
+import { HomeGridCustomPaginationComponent } from './home-grid-custom-pagination/home-grid-custom-pagination.component';
+import { PaginationComponent } from './pagination/pagination.component';
 
 @NgModule({
   declarations: [
@@ -30,7 +32,9 @@ import { MissionResultRenderer } from './mission-result-renderer/mission-result-
     CompanyLogoRenderer,
     HomeGridOptionCellRendererComponent,
     HomeGridEventsComponent,
-    MissionResultRenderer
+    MissionResultRenderer,
+    HomeGridCustomPaginationComponent,
+    PaginationComponent
   ],
   imports: [
     BrowserModule,
